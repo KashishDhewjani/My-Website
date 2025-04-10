@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+
+        <title>Remote Courses - Computing Hubs</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <script src="https://kit.fontawesome.com/2ad7920f3b.js" crossorigin="anonymous"></script>
+         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+   
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+        <body>
+            <header> 
+                <video src="assets/images/animated-logo1.mp4" autoplay muted loop></video>
+
+                <div class="nav-container">
+                    <div class="topnav" id="myTopnav">
+                         <a href="index.html">Home</a>
+                         <a href="remote-courses.html" class="active">Remote Courses</a>
+                         <a href="f2f.html">Face-to-Face Courses</a>
+                         <a href="events.html">Events</a>
+                         <a href="contact.html">Contact Us</a>
+
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                             <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+
+                    <div class="search-bar">
+                          <input type="text" id="searchInput" placeholder="Search courses..." onkeyup="filterCourses()">
+                    </div>  
+                </div>
+            </header>
+
+            <button class="print-button" onclick="printView()">Print View</button>
+
+            <section id="courses-section">
+                <h2>Available Remote Courses</h2>
+
+
+                <table class="styled-table">
+                    <div class="primary">
+                        <h3>Primary Remote CPD</h3>
+                    </div>
+                    <thead>
+                            <tr>
+                                <th>Course Code</th>
+                                <th>Course Title</th>
+                                <th>Duration</th>
+                                <th>Book Now</th>
+                            </tr>
+                    </thead>
+                    
+                    <tbody id="table1-body">
+                        <tr>
+                            <td>CP462</td>
+                            <td>Getting started in Year 1 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP462/getting-started-in-year-1-short-course">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP466</td>
+                            <td>Getting started in Year 2 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP466/getting-started-in-year-2-short-course">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP459</td>
+                            <td>Getting started in Year 3 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP459/getting-started-in-year-3-short-course">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP465</td>
+                            <td>Getting started in Year 4 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP465/getting-started-in-year-4-short-course">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP460</td>
+                            <td>Getting started in Year 5 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP460/getting-started-in-year-5-short-course">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP467</td>
+                            <td>Getting started in Year 6 - short course</td>
+                            <td>Short</td>
+                            <td><a href="https://teachcomputing.org/courses/CP467/getting-started-in-year-6-short-course">Book Now</a></td>
+                        </tr>
+                        </tbody>
+                        </table>
+
+                        <table class="styled-table">
+                        <div class="secondary">
+                            <h3>Secondary Remote CPD</h3>
+                        </div>
+
+                    <thead>
+                            <tr>
+                                <th>Course Code</th>
+                                <th>Course Title</th>
+                                <th>Duration</th>
+                                <th>Book Now</th>
+                            </tr>
+                    </thead>
+
+                    <tbody id="table2-body">
+                        <tr>
+                            <td>CP436</td>
+                            <td>Solving computational problems in KS3 computing</td>
+                            <td>1 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP436/solving-computational-problems-in-ks3-computing">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP478</td>
+                            <td>Supporting GCSE computer science students at grades 1-3</td>
+                            <td>1 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP478/supporting-gcse-computer-science-students-at-grades-1-3">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP411</td>
+                            <td>New subject leaders of secondary computing - remote</td>
+                            <td>2 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP411/new-subject-leaders-of-secondary-computing-remote">Book Now</a></td>
+                        </tr>
+  
+                        <tr>
+                            <td>CP437</td>
+                            <td>Collaboration in KS3 programming</td>
+                            <td>1 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP437/collaboration-in-ks3-programming">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP448</td>
+                            <td>Pathfinding algorithms in A-Level computer science</td>
+                            <td>1 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP448/adapted-teaching-and-effective-learning-interventions-in-secondary-computing">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>CP442</td>
+                            <td>Artificial intelligence (AI) in Key Stage 3 computing</td>
+                            <td>1 Day</td>
+                            <td><a href="https://teachcomputing.org/courses/CP442/artificial-intelligence-ai-in-key-stage-3-computing">Book Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p id="noResultsMessage" style="display: none; color: red; text-align: center;">No courses found.</p>
+                <div class="qr-container">
+                    <p class="qr-text">Use the above links or scan this QR Code to book courses online.</p>
+                    <img src="assets/images/remote-courses-qr.png" alt="QR Code">
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-left">
+                    <img src="assets/images/Footer-medium-logo.png" alt="Computing Hubs Logo" class="footer-logo-left" width="340" height="112">
+                </div>
+        
+                <div class="footer-center">
+                    <div class="contact-info">
+                        <h4>Contact Us</h4>
+                        <p>Email: <a href="info@teachcomputing.org">info@teachcomputing.org</a></p>
+                        <p>Phone: <a href="tel:01904%20328%20300">01904 328300</a></p>
+                    </div>
+        
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <a href="https://twitter.com/WeAreComputing" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://facebook.com/WeAreComputing" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/national-centre-for-computing-education" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+        
+                    <div class="parent-org">
+                        <h4>Our Parent Organisation</h4>
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://computingeducation.org.uk/&ved=2ahUKEwiPkc6hgLOMAxUfSPEDHa5uILEQFnoECCUQAQ&usg=AOvVaw22hh7LLF_D9mRbgnrRo0Hp" target="_blank">National Centre for Computing Education (NCCE)</a>
+                    </div>
+                    <h4 class="terms-conditions"><a href="https://teachcomputing.org/terms-conditions">Terms & Conditions</a></h4>
+                </div>
+        
+                <div class="footer-right">
+                    <img src="assets/images/NCCE-logo.png" alt="NCCE Logo" class="footer-logo-right" width="220" height="62">
+                </div>
+            </footer>
+        
+            <div class="footer-bottom">
+                &copy; 2025 Teach Computing. All rights reserved.
+            </div>
+
+
+            <script src="assets/js/script.js"></script>
+             
+        </body>
+</html>

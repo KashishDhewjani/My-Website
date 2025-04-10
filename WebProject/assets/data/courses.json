@@ -1,0 +1,74 @@
+[
+    {
+        "code": "CP462",
+        "title": "Getting started in Year 1 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP462/getting-started-in-year-1-short-course"
+    },
+    {
+        "code": "CP466",
+        "title": "Getting started in Year 2 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP466/getting-started-in-year-2-short-course"
+    },
+    {
+        "code": "CP459",
+        "title": "Getting started in Year 3 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP459/getting-started-in-year-3-short-course"
+    },
+    {
+        "code": "CP465",
+        "title": "Getting started in Year 4 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP465/getting-started-in-year-4-short-course"
+    },
+    {
+        "code": "CP460",
+        "title": "Getting started in Year 5 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP460/getting-started-in-year-5-short-course"
+    },
+    {
+        "code": "CP467",
+        "title": "Getting started in Year 6 - short course",
+        "duration": "Short",
+        "bookingLink": "https://teachcomputing.org/courses/CP467/getting-started-in-year-6-short-course"
+    },
+    {
+        "code": "CP436",
+        "title": "Solving computational problems in KS3 computing",
+        "duration": "1 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP436/solving-computational-problems-in-ks3-computing"
+    },
+    {
+        "code": "CP478",
+        "title": "Supporting GCSE computer science students at grades 1-3",
+        "duration": "1 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP478/supporting-gcse-computer-science-students-at-grades-1-3"
+    },
+    {
+        "code": "CP411",
+        "title": "New subject leaders of secondary computing - remote",
+        "duration": "2 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP411/new-subject-leaders-of-secondary-computing-remote"
+    },
+    {
+        "code": "CP437",
+        "title": "Collaboration in KS3 programming",
+        "duration": "1 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP437/collaboration-in-ks3-programming"
+    },
+    {
+        "code": "CP448",
+        "title": "Pathfinding algorithms in A-Level computer science",
+        "duration": "1 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP448/pathfinding-algorithms-in-a-level-computer-science"
+    },
+    {
+        "code": "CP442",
+        "title": "Artificial intelligence (AI) in Key Stage 3 computing",
+        "duration": "1 Day",
+        "bookingLink": "https://teachcomputing.org/courses/CP442/artificial-intelligence-ai-in-key-stage-3-computing"
+    }
+]
